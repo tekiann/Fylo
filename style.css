@@ -1,0 +1,17 @@
+body{
+    background-color:hsl(217, 28%, 15%);
+    margin: 0px !important;
+}
+.background{        
+        background-image:url("Assets/bg-curvy-desktop.svg");
+        background-repeat: no-repeat;
+        background-position-x:center;
+        background-position-y:bottom;
+    }
+@media screen and (max-width: 550px) {
+    
+    .background{        
+        background-image:url("Assets/bg-curvy-desktop.svg");        
+    }
+
+}

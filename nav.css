@@ -1,0 +1,36 @@
+#nav{
+    display:grid;
+    box-sizing:border-box;
+}
+
+#logo{    
+    margin-top:20px;
+    place-self:center;
+    align-content: center;
+    justify-content: center;
+
+}
+#quickMenu{
+    display:grid;
+    place-self:center;   
+}
+
+#quickMenu ul{ 
+    margin-left:-40px;
+}
+#quickMenu ul li{
+    list-style-type: none;    
+    display: inline-flex;
+    margin:10px;
+}
+#quickMenu a{
+    font-size:100%;
+    text-decoration: none;
+    color: white;
+    font-family:Raleway
+}
+#quickMenu a:hover{
+    text-decoration:underline;
+}
+
+

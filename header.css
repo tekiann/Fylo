@@ -1,0 +1,55 @@
+#header{
+    display:block;
+    padding-top:0px;
+}
+#headerHolder{
+    padding:50px;
+}
+#header img{
+    width:40%;
+    height:40%;
+    filter: brightness(0.9);
+    margin-left:30%;
+    transition: filter 1s;
+}
+#header img:hover{
+    filter: brightness(1.25);
+}
+#header h1{
+    text-align: center;
+    color: white;
+    font-size:150%;
+    font-family: 'Open Sans', sans-serif;
+}
+#header p{
+    text-align: center;
+    color: white;
+    font-size:100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header button{    
+    border:none;
+    border-radius:20px;
+    background-color:#65e2d9;
+    color: white;
+    height:40px;
+    width:50%;
+    margin-left:25%;
+    filter: brightness(1);
+
+}
+#header button:hover{    
+    
+    filter: brightness(1.05);
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    #header img{
+        margin-left:0;
+        width: 100%;
+        height:100%
+    }
+}
