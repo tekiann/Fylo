@@ -31,7 +31,7 @@
 #header button{    
     border:none;
     border-radius:20px;
-    background-color:#65e2d9;
+    background-image:linear-gradient(to left,hsl(198, 60%, 50%), hsl(176, 68%, 64%));
     color: white;
     height:40px;
     width:50%;

@@ -1,0 +1,58 @@
+#ThirdPart{
+    background-color:#181f2a;  
+    padding:15px;  
+}
+#ThirdPartHolder{
+    display:inline-flex;
+    margin:auto;
+    margin-top:20px;
+    width:100%;
+}
+#ThirdPartLeft{
+    margin:auto; 
+    padding:15px;
+    color:white;   
+}
+#ThirdPartLeft h1{
+    color: white;
+    font-size:125%;
+    font-family: 'Open Sans', sans-serif;
+}
+#ThirdPartLeft p{
+    color: white;
+    font-size:90%;
+    font-family: 'Raleway', sans-serif;
+}
+#ThirdPartLeft a{    
+    color: #65e2d9;
+    font-family:Raleway
+}
+#ThirdPartRight{
+    width:40%;
+}
+#ThirdPartRight img{    
+    width:100%;
+    height:100%;
+    filter: brightness(0.7);
+    transition:filter 1s;
+}
+#ThirdPartRight img:hover{    
+    filter: brightness(1.2);
+}
+
+
+@media screen and (max-width: 600px) {
+    #ThirdPart{
+        background-color:#181f2a;  
+        padding:15px;  
+    }
+    #ThirdPartHolder{
+        display:block;
+        
+    }
+    #ThirdPartRight{
+        width:100%;
+    }
+
+}
+

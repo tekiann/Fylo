@@ -1,0 +1,72 @@
+#comment{
+    background-color:#181f2a;
+    width:100%;
+    margin:auto;
+}
+#commentHolder{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap:10px;    
+    padding: 50px;
+    margin:auto;
+
+}
+.commentCard{
+    display:block;
+    background-image:linear-gradient(to top left,hsl(216, 53%, 9%), hsl(219, 30%, 18%));
+    padding:15px;
+    border-radius:5px;
+}
+.userComment{
+    display:inline-flex
+}
+.commentCard p{
+    text-align: start;
+    color: white;
+    font-size:90%;
+    font-family: 'Raleway', sans-serif;
+}
+.commentCard h1{
+    text-align: start;
+    color: white;
+    font-size:125%;
+    font-family: 'Open Sans', sans-serif;
+}
+.infoUserComment{
+    margin:auto;
+}
+.infoUserComment h1{
+    margin-bottom:-15px;
+}
+.imgUserComment{
+    margin-top:auto;
+    margin-right:20px;
+}
+.imgUserComment img{
+    margin:auto;
+    border-radius: 100px;
+    width:50px;
+    height:50px
+}
+#quote{
+    margin-bottom:-5%;
+    margin-left:5%;
+}
+
+@media screen and (max-width: 600px) {
+    #commentHolder{
+        display: block;
+        padding: 15px;
+        
+    }
+    .commentCard{
+        margin:20px;
+        margin-left:0;
+        margin-right:0;
+        width:auto;
+    }
+    #quote{
+        margin-bottom:-15%;
+    }
+
+}

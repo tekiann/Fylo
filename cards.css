@@ -15,7 +15,9 @@
     padding:15px;   
     block-size: 200px;
     max-height:200px;
-    margin-left:auto  
+    margin-left:auto;
+    margin-top:20px;
+    margin-bottom:20px
 }
 .imageCard{
     display:grid;
@@ -26,12 +28,12 @@
 .imageCard img{
     margin-left:auto;
     margin-right:auto;
-    filter: brightness(0.5);
-    transition:filter 5s;
+    filter: brightness(0.9);
+    transition:filter 1s;
 }
 
 .imageCard img:hover{
-    filter: brightness(2);
+    filter: brightness(1.5);
 
 }
 #cardInfos h1{
